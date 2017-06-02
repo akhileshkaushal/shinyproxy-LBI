@@ -1,6 +1,7 @@
 # shinyproxy-LBI
-docker image and Dockerfile build folder for LBI shinyproxy test 
+Dockerfile build folder for LBI shinyproxy test original shiny app
+developed by Scott Large hosted at
+https://github.com/ices-tools-dev/LBI_shiny
 
-dropbox link to docker image tar as it is too large for github (400mb)
-
-https://www.dropbox.com/s/btk0qf2qdv414aa/shinyproxy_LBI.tar.gz?dl=0
+Docker image is autobuilt on docker hub at
+https://hub.docker.com/r/nathanvaughan/shinyproxy-lbi/
