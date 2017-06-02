@@ -8,6 +8,9 @@ https://hub.docker.com/r/nathanvaughan/shinyproxy-lbi/
 Additional shiny proxy information
     
 name: LBI_shiny
+
 display-name: LBI shiny app
+
 docker-cmd: ["R", "-e shiny::runApp('/root/LBI_shiny')"]
+
 docker-image: nathanvaughan/shinyproxy-lbi
