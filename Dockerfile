@@ -14,7 +14,9 @@ RUN apt-get update && apt-get install -y \
     libssh2-1-dev \
     libssl1.0.0 \
     default-jre \
-    default-jdk
+    default-jdk \
+    libxml2 \
+    libxml2-dev
 
 # install dependencies of the LBI app
 RUN R -e "install.packages(c('shiny', 'rmarkdown','LBSPR','reshape2','ReporteRs','ggplot2','ReporteRsjars'), repos='https://cloud.r-project.org/')"
